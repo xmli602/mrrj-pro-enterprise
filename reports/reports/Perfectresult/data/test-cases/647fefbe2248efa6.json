@@ -1,0 +1,319 @@
+{
+  "uid" : "647fefbe2248efa6",
+  "name" : "验证部门名称不能重复",
+  "fullName" : "testcase.enterprise.base_information.test_base_information_dept.TestBaseInformationDept#test_dept_add",
+  "historyId" : "fda3fed83b54f4b6f54724b9c8efba94",
+  "time" : {
+    "start" : 1678630226602,
+    "stop" : 1678630227013,
+    "duration" : 411
+  },
+  "description" : "输入门店已存在的部门名称新增一级部门",
+  "descriptionHtml" : "<p>输入门店已存在的部门名称新增一级部门</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "connectdb",
+    "time" : {
+      "start" : 1678630225204,
+      "stop" : 1678630225440,
+      "duration" : 236
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "连接数据库",
+      "time" : {
+        "start" : 1678630225205,
+        "stop" : 1678630225440,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "连接数据库",
+        "time" : {
+          "start" : 1678630225271,
+          "stop" : 1678630225439,
+          "duration" : 168
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "host",
+          "value" : "'kjj-and-mr-dev.rwlb.rds.aliyuncs.com'"
+        }, {
+          "name" : "port",
+          "value" : "3306"
+        }, {
+          "name" : "user",
+          "value" : "'lxm'"
+        }, {
+          "name" : "passwd",
+          "value" : "'qj0KPfzL5Rhi5Qza'"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  }, {
+    "name" : "get_deptdata",
+    "time" : {
+      "start" : 1678630225441,
+      "stop" : 1678630226026,
+      "duration" : 585
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发起请求",
+      "time" : {
+        "start" : 1678630225540,
+        "stop" : 1678630226025,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjM0ODg1Nzk0OTc5NTgxOTU0LCJ1c2VyX2tleSI6ImFiNDIxNzRjLTQ5NmQtNDllYy05ZTRjLWRjMDdlYmViNDhjYSIsImVudGVycHJpc2VfaWQiOjE2MzQ4ODYwMzE2NjcxMjIxOTEsInVzZXJuYW1lIjoiMTM2NTc2OTM0OTUifQ.a4u724GbhIlC6jOX_Vpi0lGctV-kTXP1oH2K_EWdK5_8lScATdO10atIxPfKqiRrXa-qoHjZFZVQt5_bN4KXww'}, 'json': {'name': 'Auto部门-l1', 'parentId': '0', 'status': 1}}"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "输入门店已存在的部门名称新增一级部门",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确并新增部门成功",
+      "time" : {
+        "start" : 1678630226603,
+        "stop" : 1678630227013,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "发起请求",
+        "time" : {
+          "start" : 1678630226603,
+          "stop" : 1678630227010,
+          "duration" : 407
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "data",
+          "value" : "{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjM0ODg1Nzk0OTc5NTgxOTU0LCJ1c2VyX2tleSI6ImFiNDIxNzRjLTQ5NmQtNDllYy05ZTRjLWRjMDdlYmViNDhjYSIsImVudGVycHJpc2VfaWQiOjE2MzQ4ODYwMzE2NjcxMjIxOTEsInVzZXJuYW1lIjoiMTM2NTc2OTM0OTUifQ.a4u724GbhIlC6jOX_Vpi0lGctV-kTXP1oH2K_EWdK5_8lScATdO10atIxPfKqiRrXa-qoHjZFZVQt5_bN4KXww'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "相等断言结果",
+        "time" : {
+          "start" : 1678630227010,
+          "stop" : 1678630227011,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Actualresults",
+          "value" : "'Code: mrkj-store-service-1001'"
+        }, {
+          "name" : "Expectedresults",
+          "value" : "'Code: mrkj-store-service-1001'"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "相等断言结果",
+        "time" : {
+          "start" : 1678630227012,
+          "stop" : 1678630227013,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Actualresults",
+          "value" : "'Code: 【名称】:Auto部门重复'"
+        }, {
+          "name" : "Expectedresults",
+          "value" : "'Code: 【名称】:Auto部门重复'"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ {
+      "uid" : "7f2ab4b2fe87b4b6",
+      "name" : "log",
+      "source" : "7f2ab4b2fe87b4b6.txt",
+      "type" : "text/plain",
+      "size" : 1606
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "get_deptdata::0",
+    "time" : {
+      "start" : 1678630227592,
+      "stop" : 1678630227592,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "connectdb::0",
+    "time" : {
+      "start" : 1678630227594,
+      "stop" : 1678630227596,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "关闭数据库",
+      "time" : {
+        "start" : 1678630227594,
+        "stop" : 1678630227595,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "茂日Pro企业版：数据设置"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "部门设置"
+  }, {
+    "name" : "story",
+    "value" : "新增部门"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.enterprise.base_information"
+  }, {
+    "name" : "suite",
+    "value" : "test_base_information_dept"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBaseInformationDept"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-6CAUTENM"
+  }, {
+    "name" : "thread",
+    "value" : "16524-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.enterprise.base_information.test_base_information_dept"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_info",
+    "value" : "[2, '部门接口/新增接口', '验证部门名称不能重复', '输入门店已存在的部门名称新增一级部门', '负向用例', 1, '/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'json', 'POST', '1、登录门店', '{\"name\":\"#name#\",\"parentId\":\"0\",\"status\":1}', '门店token', '1、正确输入接口地址\\n2、输入请求参数\\n3、查看响应body是否正确并新增部门成功', 'mrkj-store-service-1001', '【名称】:Auto部门重复', '无', '否', 1, '否']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "522d487ea3edf8d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678630226602,
+          "stop" : 1678630227013,
+          "duration" : 411
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "647fefbe2248efa6.json",
+  "parameterValues" : [ "[2, '部门接口/新增接口', '验证部门名称不能重复', '输入门店已存在的部门名称新增一级部门', '负向用例', 1, '/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'json', 'POST', '1、登录门店', '{\"name\":\"#name#\",\"parentId\":\"0\",\"status\":1}', '门店token', '1、正确输入接口地址\\n2、输入请求参数\\n3、查看响应body是否正确并新增部门成功', 'mrkj-store-service-1001', '【名称】:Auto部门重复', '无', '否', 1, '否']" ]
+}

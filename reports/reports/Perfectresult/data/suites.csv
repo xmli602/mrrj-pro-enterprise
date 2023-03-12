@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 12 22:10:26 CST 2023","Sun Mar 12 22:10:27 CST 2023","411","testcase.enterprise.base_information","test_base_information_dept","TestBaseInformationDept","","","验证部门名称不能重复","输入门店已存在的部门名称新增一级部门"
+"passed","Sun Mar 12 22:10:27 CST 2023","Sun Mar 12 22:10:27 CST 2023","566","testcase.enterprise.base_information","test_base_information_dept","TestBaseInformationDept","","","验证新增二级部门","输入部门名称、上级部门新增二级部门"
+"passed","Sun Mar 12 22:10:26 CST 2023","Sun Mar 12 22:10:26 CST 2023","562","testcase.enterprise.base_information","test_base_information_dept","TestBaseInformationDept","","","验证新增一级部门","输入部门名称，不选择上级部门，新增一级部门"

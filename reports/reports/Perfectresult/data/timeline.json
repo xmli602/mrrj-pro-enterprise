@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-6CAUTENM",
+    "children" : [ {
+      "name" : "16524-MainThread",
+      "children" : [ {
+        "name" : "验证部门名称不能重复",
+        "uid" : "647fefbe2248efa6",
+        "parentUid" : "d36cc3c6a41215dffbfdd2c522394c6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678630226602,
+          "stop" : 1678630227013,
+          "duration" : 411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, '部门接口/新增接口', '验证部门名称不能重复', '输入门店已存在的部门名称新增一级部门', '负向用例', 1, '/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'json', 'POST', '1、登录门店', '{\"name\":\"#name#\",\"parentId\":\"0\",\"status\":1}', '门店token', '1、正确输入接口地址\\n2、输入请求参数\\n3、查看响应body是否正确并新增部门成功', 'mrkj-store-service-1001', '【名称】:Auto部门重复', '无', '否', 1, '否']" ]
+      }, {
+        "name" : "验证新增二级部门",
+        "uid" : "ecde3a85fb24f2e",
+        "parentUid" : "d36cc3c6a41215dffbfdd2c522394c6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678630227023,
+          "stop" : 1678630227589,
+          "duration" : 566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, '部门接口/新增接口', '验证新增二级部门', '输入部门名称、上级部门新增二级部门', '正向用例', 1, '/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'json', 'POST', '1、登陆门店；2、需要一级部门ID', '{\"name\":\"#name#\",\"parentId\":\"#parentId#\",\"status\":1}', '门店token', '1、正确输入接口地址\\n2、输入请求参数\\n3、查看响应body是否正确并新增部门成功', 0, '请求成功', '{\"name\":\"#name#\",\"parentId\":\"#parentId#\"}', '是', 0, '是']" ]
+      }, {
+        "name" : "验证新增一级部门",
+        "uid" : "5d1d8cf1a39980c6",
+        "parentUid" : "d36cc3c6a41215dffbfdd2c522394c6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678630226029,
+          "stop" : 1678630226591,
+          "duration" : 562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, '部门接口/新增接口', '验证新增一级部门', '输入部门名称，不选择上级部门，新增一级部门', '正向用例', 1, '/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'json', 'POST', '1、登录门店', '{\"name\":\"#name#\",\"parentId\":\"0\",\"status\":1}', '门店token', '1、正确输入接口地址\\n2、输入请求参数\\n3、查看响应body是否正确并新增部门成功', 0, '请求成功', '{\"name\":\"#name#\",\"parentId\":\"#parentId#\"}', '是', 0, '是']" ]
+      } ],
+      "uid" : "d36cc3c6a41215dffbfdd2c522394c6b"
+    } ],
+    "uid" : "6bd555baf22a0255e0e83775a935240d"
+  } ]
+}

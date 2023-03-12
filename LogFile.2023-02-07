@@ -1,0 +1,642 @@
+2023-02-07 12:43:22,611 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 12:43:23,162 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 12:43:23,174 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 12:43:23,587 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 12:43:23,589 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 12:43:23,589 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImRmM2YzNDFiLTBjYzgtNDI1Ni1iYThmLWE4MzgyNzgxMDY5YiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.PWXSuIyo8VKBPGVlB3iUBJzBcpm0yeBvou-9V4JWfIbkGyPD6C5wi_GiJVOZpGEX1iRG5ak1kjKHc3FckfucVg","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 12:43:26,742 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 12:43:26,742 | run.py[line:65] | ERROR: 执行接口自动化失败，失败原因：[Errno 2] No such file or directory: '/Users/yan/Desktop/src/python_src/mrrj-pro-enterprise/testdata/index.html'
+2023-02-07 12:46:21,158 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 12:46:21,698 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 12:46:21,707 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 12:46:22,033 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 12:46:22,035 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 12:46:22,035 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjIxNTY5OTc0LTkyMDUtNDYyMS1iZTZlLWM2ZWUxYWQ2YmYzYyIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.GUO-v_PYFcZSuZsY7_V5lwaXVDYH4bRi5YQUPDLnEmF_ueuOCI43ybtmzB6t0sRCWhgqavtFKiul_3JkYJk9jw","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 12:46:22,079 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 12:46:25,217 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 12:46:25,217 | run.py[line:65] | ERROR: 执行接口自动化失败，失败原因：[Errno 2] No such file or directory: '/Users/yan/Desktop/src/python_src/mrrj-pro-enterprise/testdata/index.html'
+2023-02-07 12:49:22,089 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 12:49:22,609 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 12:49:22,619 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 12:49:22,946 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 12:49:22,947 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 12:49:22,948 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImY2YjVmZTgyLWM1YjMtNGE1OC05N2QxLTVlMDE4NjFmZjUyNSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.HuZYgHT4ImufloP115JwOWuQibU2yvrz85ikh7kwRj_iOUSVq0UHbAG98RbC4xf9TeSaQDL26nrINEI0NZAApw","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 12:49:23,000 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 12:49:23,014 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 12:49:23,280 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 12:49:23,281 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImY2YjVmZTgyLWM1YjMtNGE1OC05N2QxLTVlMDE4NjFmZjUyNSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.HuZYgHT4ImufloP115JwOWuQibU2yvrz85ikh7kwRj_iOUSVq0UHbAG98RbC4xf9TeSaQDL26nrINEI0NZAApw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 12:49:23,281 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622819790938243073"},"isSuccess":true}
+2023-02-07 12:49:23,363 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 12:49:23,583 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 12:49:23,584 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImY2YjVmZTgyLWM1YjMtNGE1OC05N2QxLTVlMDE4NjFmZjUyNSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.HuZYgHT4ImufloP115JwOWuQibU2yvrz85ikh7kwRj_iOUSVq0UHbAG98RbC4xf9TeSaQDL26nrINEI0NZAApw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 12:49:23,584 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622819792255254529"},"isSuccess":true}
+2023-02-07 12:49:23,594 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 12:49:23,842 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 12:49:23,843 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImY2YjVmZTgyLWM1YjMtNGE1OC05N2QxLTVlMDE4NjFmZjUyNSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.HuZYgHT4ImufloP115JwOWuQibU2yvrz85ikh7kwRj_iOUSVq0UHbAG98RbC4xf9TeSaQDL26nrINEI0NZAApw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 12:49:23,844 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622819793215750146"},"isSuccess":true}
+2023-02-07 12:49:26,871 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 12:49:26,871 | run.py[line:65] | ERROR: 执行接口自动化失败，失败原因：[Errno 2] No such file or directory: '/Users/yan/Desktop/src/python_src/mrrj-pro-enterprise/testdata/index.html'
+2023-02-07 13:33:19,943 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 13:33:20,453 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 13:33:20,463 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:33:20,811 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 13:33:20,813 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 13:33:20,813 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjE4MzhkZGJlLTZmNzItNGNmZi04OTE3LTQ3ZjFlNTQxZDlhZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.pv65Ta6MUoZb8RzN3Ba5m6UJgDOKBhqd3e10rTTCBKmDQu11n4loizWnops6jxsTkmDgJbvfZImWMkPPv6MXMw","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 13:33:20,849 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 13:33:20,858 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:33:22,244 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:33:22,245 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjE4MzhkZGJlLTZmNzItNGNmZi04OTE3LTQ3ZjFlNTQxZDlhZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.pv65Ta6MUoZb8RzN3Ba5m6UJgDOKBhqd3e10rTTCBKmDQu11n4loizWnops6jxsTkmDgJbvfZImWMkPPv6MXMw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:33:22,246 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622830859063648257"},"isSuccess":true}
+2023-02-07 13:33:22,326 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:33:22,560 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:33:22,562 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjE4MzhkZGJlLTZmNzItNGNmZi04OTE3LTQ3ZjFlNTQxZDlhZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.pv65Ta6MUoZb8RzN3Ba5m6UJgDOKBhqd3e10rTTCBKmDQu11n4loizWnops6jxsTkmDgJbvfZImWMkPPv6MXMw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:33:22,563 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622830860800090114"},"isSuccess":true}
+2023-02-07 13:33:22,574 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:33:22,800 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:33:22,802 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjE4MzhkZGJlLTZmNzItNGNmZi04OTE3LTQ3ZjFlNTQxZDlhZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.pv65Ta6MUoZb8RzN3Ba5m6UJgDOKBhqd3e10rTTCBKmDQu11n4loizWnops6jxsTkmDgJbvfZImWMkPPv6MXMw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:33:22,802 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622830861789945858"},"isSuccess":true}
+2023-02-07 13:33:25,829 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 13:33:25,830 | run.py[line:65] | ERROR: 执行接口自动化失败，失败原因：[Errno 2] No such file or directory: '/Users/yan/Desktop/src/python_src/mrrj-pro-enterprise/reports/Perfectresult/'
+2023-02-07 13:34:22,209 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 13:34:22,702 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 13:34:22,712 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:34:23,025 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 13:34:23,027 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 13:34:23,027 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjdiNWRhYjcxLWZmNzEtNGRhYS1hMTc3LWU0YWMwNGZiYmE1ZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.KQ5DLRDbowX_RwPM5YU5WYl17pCMHOZA8nW4nFgHm_QcuEKmbIdNYrgcwoiENv_IyCe_Fbmc0BDxqu2QlRiBwQ","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 13:34:23,063 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 13:34:23,073 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:34:25,112 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:34:25,114 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjdiNWRhYjcxLWZmNzEtNGRhYS1hMTc3LWU0YWMwNGZiYmE1ZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.KQ5DLRDbowX_RwPM5YU5WYl17pCMHOZA8nW4nFgHm_QcuEKmbIdNYrgcwoiENv_IyCe_Fbmc0BDxqu2QlRiBwQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:34:25,115 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622831117508272129"},"isSuccess":true}
+2023-02-07 13:34:25,200 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:34:25,439 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:34:25,440 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjdiNWRhYjcxLWZmNzEtNGRhYS1hMTc3LWU0YWMwNGZiYmE1ZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.KQ5DLRDbowX_RwPM5YU5WYl17pCMHOZA8nW4nFgHm_QcuEKmbIdNYrgcwoiENv_IyCe_Fbmc0BDxqu2QlRiBwQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:34:25,440 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622831124508565505"},"isSuccess":true}
+2023-02-07 13:34:25,453 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:34:25,722 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:34:25,723 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjdiNWRhYjcxLWZmNzEtNGRhYS1hMTc3LWU0YWMwNGZiYmE1ZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.KQ5DLRDbowX_RwPM5YU5WYl17pCMHOZA8nW4nFgHm_QcuEKmbIdNYrgcwoiENv_IyCe_Fbmc0BDxqu2QlRiBwQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:34:25,723 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622831125586501633"},"isSuccess":true}
+2023-02-07 13:34:28,741 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 13:34:28,742 | run.py[line:65] | ERROR: 执行接口自动化失败，失败原因：[Errno 2] No such file or directory: '/Users/yan/Desktop/src/python_src/mrrj-pro-enterprise/reports/Perfectresult/'
+2023-02-07 13:37:43,915 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 13:37:44,852 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 13:37:44,867 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:37:45,432 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 13:37:45,436 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 13:37:45,436 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjU4ZGJiZTg0LWJkNWItNGE5Mi04OGQ4LTEzYmIyYjk4Yjk5YyIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.bTcdO48iNbW7swFITnsDIbt87i0Bn_DOcSXv07Ui1cVCrQStfeouFphTSJTFd0r9PNXox7ZlUbopdssmYugcrQ","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 13:37:45,558 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 13:37:45,581 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:37:46,244 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:37:46,246 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjU4ZGJiZTg0LWJkNWItNGE5Mi04OGQ4LTEzYmIyYjk4Yjk5YyIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.bTcdO48iNbW7swFITnsDIbt87i0Bn_DOcSXv07Ui1cVCrQStfeouFphTSJTFd0r9PNXox7ZlUbopdssmYugcrQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:37:46,247 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622831966703837185"},"isSuccess":true}
+2023-02-07 13:37:46,485 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:37:46,796 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:37:46,799 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjU4ZGJiZTg0LWJkNWItNGE5Mi04OGQ4LTEzYmIyYjk4Yjk5YyIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.bTcdO48iNbW7swFITnsDIbt87i0Bn_DOcSXv07Ui1cVCrQStfeouFphTSJTFd0r9PNXox7ZlUbopdssmYugcrQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:37:46,799 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622831969069424641"},"isSuccess":true}
+2023-02-07 13:37:46,827 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:37:47,167 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:37:47,169 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjU4ZGJiZTg0LWJkNWItNGE5Mi04OGQ4LTEzYmIyYjk4Yjk5YyIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.bTcdO48iNbW7swFITnsDIbt87i0Bn_DOcSXv07Ui1cVCrQStfeouFphTSJTFd0r9PNXox7ZlUbopdssmYugcrQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:37:47,170 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622831970612928513"},"isSuccess":true}
+2023-02-07 13:53:16,357 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 13:53:16,890 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 13:53:16,900 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:53:17,256 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 13:53:17,258 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 13:53:17,258 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijk5ZGIzZjFjLTljODctNGYxMS1hZmZhLTk2MDlhMjQzZTBlZCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.Y-CAyuDvS0lShCt_xntdygSJtpEcW4qo4uSy_SFAJFa45u_5UHiFjPYhbKdQQ83PwYBrazKgSg7gozzBPjgubg","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 13:53:17,297 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 13:53:17,306 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:53:19,337 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:53:19,338 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijk5ZGIzZjFjLTljODctNGYxMS1hZmZhLTk2MDlhMjQzZTBlZCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.Y-CAyuDvS0lShCt_xntdygSJtpEcW4qo4uSy_SFAJFa45u_5UHiFjPYhbKdQQ83PwYBrazKgSg7gozzBPjgubg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:53:19,339 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622835876761231361"},"isSuccess":true}
+2023-02-07 13:53:19,424 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:53:19,684 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:53:19,685 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijk5ZGIzZjFjLTljODctNGYxMS1hZmZhLTk2MDlhMjQzZTBlZCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.Y-CAyuDvS0lShCt_xntdygSJtpEcW4qo4uSy_SFAJFa45u_5UHiFjPYhbKdQQ83PwYBrazKgSg7gozzBPjgubg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:53:19,686 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622835881781813249"},"isSuccess":true}
+2023-02-07 13:53:19,697 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:53:19,934 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:53:19,935 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijk5ZGIzZjFjLTljODctNGYxMS1hZmZhLTk2MDlhMjQzZTBlZCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.Y-CAyuDvS0lShCt_xntdygSJtpEcW4qo4uSy_SFAJFa45u_5UHiFjPYhbKdQQ83PwYBrazKgSg7gozzBPjgubg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:53:19,936 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622835882830389249"},"isSuccess":true}
+2023-02-07 13:53:22,955 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 13:53:22,956 | run.py[line:65] | ERROR: 执行接口自动化失败，失败原因：[Errno 2] No such file or directory: '/Users/yan/Desktop/src/python_src/mrrj-pro-enterprise/reports/Perfectresult/'
+2023-02-07 13:53:57,600 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 13:53:58,494 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 13:53:58,512 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:53:58,848 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 13:53:58,850 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 13:53:58,851 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmY2NmYTUxLTIwMWYtNGMzYi04OGQwLTk3N2UzZWY5ODY1NSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.OuJPKRZpB9ZeZXrS2WrqpLdMSNXmR7vMgSK2_NLlX-FKb3s_ZNMd_E3uqn3rATIhsYYWxZNF_FUSPPIMndH9pg","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 13:53:58,966 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 13:53:58,985 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:53:59,238 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:53:59,241 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmY2NmYTUxLTIwMWYtNGMzYi04OGQwLTk3N2UzZWY5ODY1NSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.OuJPKRZpB9ZeZXrS2WrqpLdMSNXmR7vMgSK2_NLlX-FKb3s_ZNMd_E3uqn3rATIhsYYWxZNF_FUSPPIMndH9pg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:53:59,242 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622836047670730753"},"isSuccess":true}
+2023-02-07 13:53:59,502 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:53:59,872 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:53:59,875 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmY2NmYTUxLTIwMWYtNGMzYi04OGQwLTk3N2UzZWY5ODY1NSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.OuJPKRZpB9ZeZXrS2WrqpLdMSNXmR7vMgSK2_NLlX-FKb3s_ZNMd_E3uqn3rATIhsYYWxZNF_FUSPPIMndH9pg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:53:59,876 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622836049998569474"},"isSuccess":true}
+2023-02-07 13:53:59,904 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:54:00,190 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:54:00,193 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmY2NmYTUxLTIwMWYtNGMzYi04OGQwLTk3N2UzZWY5ODY1NSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.OuJPKRZpB9ZeZXrS2WrqpLdMSNXmR7vMgSK2_NLlX-FKb3s_ZNMd_E3uqn3rATIhsYYWxZNF_FUSPPIMndH9pg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:54:00,194 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622836051667902465"},"isSuccess":true}
+2023-02-07 13:55:20,860 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 13:55:21,727 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 13:55:21,743 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:55:22,189 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 13:55:22,191 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 13:55:22,191 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjVjYjQyOTM0LTZhZTctNGY4Zi04MzU3LTE5NTU4NWYyYzgzYiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.F_CZ6dSs_65MhFZdjQlUYqwC8K9rgmurEQYgGt0xSzmrDCJ8L1KANVjUTfSrVxqdDLHCIUcxG1yVUN8jf1T4Ag","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 13:55:22,315 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 13:55:22,337 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:55:22,974 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:55:22,976 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjVjYjQyOTM0LTZhZTctNGY4Zi04MzU3LTE5NTU4NWYyYzgzYiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.F_CZ6dSs_65MhFZdjQlUYqwC8K9rgmurEQYgGt0xSzmrDCJ8L1KANVjUTfSrVxqdDLHCIUcxG1yVUN8jf1T4Ag'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:55:22,977 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622836398973050882"},"isSuccess":true}
+2023-02-07 13:55:23,235 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:55:23,495 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:55:23,498 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjVjYjQyOTM0LTZhZTctNGY4Zi04MzU3LTE5NTU4NWYyYzgzYiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.F_CZ6dSs_65MhFZdjQlUYqwC8K9rgmurEQYgGt0xSzmrDCJ8L1KANVjUTfSrVxqdDLHCIUcxG1yVUN8jf1T4Ag'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:55:23,499 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622836401170866177"},"isSuccess":true}
+2023-02-07 13:55:23,528 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:55:23,847 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:55:23,849 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjVjYjQyOTM0LTZhZTctNGY4Zi04MzU3LTE5NTU4NWYyYzgzYiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.F_CZ6dSs_65MhFZdjQlUYqwC8K9rgmurEQYgGt0xSzmrDCJ8L1KANVjUTfSrVxqdDLHCIUcxG1yVUN8jf1T4Ag'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:55:23,849 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622836402626289666"},"isSuccess":true}
+2023-02-07 13:56:20,632 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 13:56:21,679 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 13:56:21,695 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:56:22,065 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 13:56:22,069 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 13:56:22,069 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjE2NjI2MTkyLWYyZGItNDlmNy05YzUxLTU0OTZiNDgzMGQ2OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.DXCHutRudq_Iu4r_G5Bc_i9OX0Zvgfb3Qk1LBbxoD-L5YtgfH5MK4gmeNom0lAcbD_3WrmcuVTJrj-gzL7Y_oQ","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 13:56:22,180 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 13:56:22,202 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:56:22,448 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:56:22,450 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjE2NjI2MTkyLWYyZGItNDlmNy05YzUxLTU0OTZiNDgzMGQ2OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.DXCHutRudq_Iu4r_G5Bc_i9OX0Zvgfb3Qk1LBbxoD-L5YtgfH5MK4gmeNom0lAcbD_3WrmcuVTJrj-gzL7Y_oQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:56:22,451 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622836648441864193"},"isSuccess":true}
+2023-02-07 13:56:22,694 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:56:22,931 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:56:22,934 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjE2NjI2MTkyLWYyZGItNDlmNy05YzUxLTU0OTZiNDgzMGQ2OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.DXCHutRudq_Iu4r_G5Bc_i9OX0Zvgfb3Qk1LBbxoD-L5YtgfH5MK4gmeNom0lAcbD_3WrmcuVTJrj-gzL7Y_oQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:56:22,935 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622836650459324418"},"isSuccess":true}
+2023-02-07 13:56:22,962 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:56:23,253 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:56:23,256 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjE2NjI2MTkyLWYyZGItNDlmNy05YzUxLTU0OTZiNDgzMGQ2OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.DXCHutRudq_Iu4r_G5Bc_i9OX0Zvgfb3Qk1LBbxoD-L5YtgfH5MK4gmeNom0lAcbD_3WrmcuVTJrj-gzL7Y_oQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:56:23,257 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622836651797307394"},"isSuccess":true}
+2023-02-07 13:58:57,347 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 13:58:58,254 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 13:58:58,269 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:58:58,698 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 13:58:58,701 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 13:58:58,702 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjEzOTM2MTJiLWE4ZDItNGE2Ny04NjY2LWQ5NDI3M2Y5NjgyMSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.zoXTwqFZyXZE2T4PJlKzPAHPZLZek9PyOqPMW46XFDSFv5EhUFtelRXR7bllX5Xa6H3iyEGmFnjDNbhRebxwDw","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 13:58:58,812 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 13:58:58,831 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:58:59,147 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:58:59,150 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjEzOTM2MTJiLWE4ZDItNGE2Ny04NjY2LWQ5NDI3M2Y5NjgyMSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.zoXTwqFZyXZE2T4PJlKzPAHPZLZek9PyOqPMW46XFDSFv5EhUFtelRXR7bllX5Xa6H3iyEGmFnjDNbhRebxwDw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:58:59,151 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622837305655746561"},"isSuccess":true}
+2023-02-07 13:58:59,393 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:58:59,703 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:58:59,704 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjEzOTM2MTJiLWE4ZDItNGE2Ny04NjY2LWQ5NDI3M2Y5NjgyMSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.zoXTwqFZyXZE2T4PJlKzPAHPZLZek9PyOqPMW46XFDSFv5EhUFtelRXR7bllX5Xa6H3iyEGmFnjDNbhRebxwDw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:58:59,705 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622837307773870081"},"isSuccess":true}
+2023-02-07 13:58:59,737 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 13:59:00,019 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 13:59:00,021 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjEzOTM2MTJiLWE4ZDItNGE2Ny04NjY2LWQ5NDI3M2Y5NjgyMSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.zoXTwqFZyXZE2T4PJlKzPAHPZLZek9PyOqPMW46XFDSFv5EhUFtelRXR7bllX5Xa6H3iyEGmFnjDNbhRebxwDw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 13:59:00,022 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622837309317373953"},"isSuccess":true}
+2023-02-07 14:08:27,897 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:08:28,815 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:08:28,830 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:08:29,187 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:08:29,189 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:08:29,189 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImMwMWU1NzViLTA2YzItNDVjNS1iYWVlLTVhYTcyNWQyNTE3NSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.Xv89UIErRkIPHQfIbcKof7c5YPX_6SHnzgtBaO4Sfc3_z8STrF3TivR9NKPOh3MsIgZZ8QqE_fqudScky16j-A","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:08:29,309 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:08:29,332 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:08:29,549 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:08:29,551 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImMwMWU1NzViLTA2YzItNDVjNS1iYWVlLTVhYTcyNWQyNTE3NSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.Xv89UIErRkIPHQfIbcKof7c5YPX_6SHnzgtBaO4Sfc3_z8STrF3TivR9NKPOh3MsIgZZ8QqE_fqudScky16j-A'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:08:29,551 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622839698116108289"},"isSuccess":true}
+2023-02-07 14:08:29,794 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:08:30,057 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:08:30,059 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImMwMWU1NzViLTA2YzItNDVjNS1iYWVlLTVhYTcyNWQyNTE3NSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.Xv89UIErRkIPHQfIbcKof7c5YPX_6SHnzgtBaO4Sfc3_z8STrF3TivR9NKPOh3MsIgZZ8QqE_fqudScky16j-A'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:08:30,060 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622839700213260290"},"isSuccess":true}
+2023-02-07 14:08:30,089 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:08:30,341 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:08:30,344 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImMwMWU1NzViLTA2YzItNDVjNS1iYWVlLTVhYTcyNWQyNTE3NSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.Xv89UIErRkIPHQfIbcKof7c5YPX_6SHnzgtBaO4Sfc3_z8STrF3TivR9NKPOh3MsIgZZ8QqE_fqudScky16j-A'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:08:30,345 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622839701429608449"},"isSuccess":true}
+2023-02-07 14:15:14,169 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:15:14,735 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:15:14,745 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:15:15,152 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:15:15,154 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:15:15,154 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjVlMzkwNTY5LTc1MDUtNDExOC04YTdiLTQ0OGNlYzJlMGI5YyIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.wfTUWdY73UtY09ozuFU_M4kZB0q75B0MGzGt4yubuFwgqvARB6WQxu_riUC0U6AadnUY1HXuklkNtNn_DSqC0g","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:15:15,199 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:15:15,208 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:15:15,481 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:15:15,482 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjVlMzkwNTY5LTc1MDUtNDExOC04YTdiLTQ0OGNlYzJlMGI5YyIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.wfTUWdY73UtY09ozuFU_M4kZB0q75B0MGzGt4yubuFwgqvARB6WQxu_riUC0U6AadnUY1HXuklkNtNn_DSqC0g'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:15:15,483 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622841400537964546"},"isSuccess":true}
+2023-02-07 14:15:15,571 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:15:16,114 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:15:16,115 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjVlMzkwNTY5LTc1MDUtNDExOC04YTdiLTQ0OGNlYzJlMGI5YyIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.wfTUWdY73UtY09ozuFU_M4kZB0q75B0MGzGt4yubuFwgqvARB6WQxu_riUC0U6AadnUY1HXuklkNtNn_DSqC0g'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:15:16,116 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622841403201347586"},"isSuccess":true}
+2023-02-07 14:15:16,131 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:15:16,385 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:15:16,386 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjVlMzkwNTY5LTc1MDUtNDExOC04YTdiLTQ0OGNlYzJlMGI5YyIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.wfTUWdY73UtY09ozuFU_M4kZB0q75B0MGzGt4yubuFwgqvARB6WQxu_riUC0U6AadnUY1HXuklkNtNn_DSqC0g'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:15:16,386 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622841404329615362"},"isSuccess":true}
+2023-02-07 14:15:19,407 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 14:15:19,407 | run.py[line:65] | ERROR: 执行接口自动化失败，失败原因：[Errno 2] No such file or directory: '/Users/yan/Desktop/src/python_src/mrrj-pro-enterprise/reports/Perfectresult/'
+2023-02-07 14:15:32,774 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:15:33,923 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:15:33,939 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:15:34,273 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:15:34,276 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:15:34,276 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjdiZDI2ZjhlLTI1YjMtNGU5NC05NjYxLTRiNzJjZGFhMTI0YSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.xxRd7DW5jdbGTiUXd1Iu-hf2jxDcb7RyHnghFfLOAW3rAMxevV-CLKblIeCFqtMqHv1J-9BpBKpMKXikF1lotg","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:15:34,390 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:15:34,416 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:15:34,637 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:15:34,641 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjdiZDI2ZjhlLTI1YjMtNGU5NC05NjYxLTRiNzJjZGFhMTI0YSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.xxRd7DW5jdbGTiUXd1Iu-hf2jxDcb7RyHnghFfLOAW3rAMxevV-CLKblIeCFqtMqHv1J-9BpBKpMKXikF1lotg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:15:34,642 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622841480892440578"},"isSuccess":true}
+2023-02-07 14:15:34,908 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:15:35,126 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:15:35,127 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjdiZDI2ZjhlLTI1YjMtNGU5NC05NjYxLTRiNzJjZGFhMTI0YSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.xxRd7DW5jdbGTiUXd1Iu-hf2jxDcb7RyHnghFfLOAW3rAMxevV-CLKblIeCFqtMqHv1J-9BpBKpMKXikF1lotg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:15:35,128 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622841482943455234"},"isSuccess":true}
+2023-02-07 14:15:35,154 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:15:35,397 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:15:35,400 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjdiZDI2ZjhlLTI1YjMtNGU5NC05NjYxLTRiNzJjZGFhMTI0YSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.xxRd7DW5jdbGTiUXd1Iu-hf2jxDcb7RyHnghFfLOAW3rAMxevV-CLKblIeCFqtMqHv1J-9BpBKpMKXikF1lotg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:15:35,401 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622841484050751490"},"isSuccess":true}
+2023-02-07 14:19:12,677 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:19:13,179 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:19:13,189 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:19:13,524 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:19:13,525 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:19:13,526 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmZjAxMzUwLWI3NTMtNGNjYi04YjIzLWM2ZDUzZjc2ZjE1OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.FgjFRxacIpRsVYXrqQzAlyZYq_kNHm1wtDG2w_Tco7hrWZOGAAJV_zahTkTQnzw3fX3T_pGIhuF0jXPIbeNAdw","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:19:13,566 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:19:13,576 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:19:13,797 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:19:13,799 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmZjAxMzUwLWI3NTMtNGNjYi04YjIzLWM2ZDUzZjc2ZjE1OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.FgjFRxacIpRsVYXrqQzAlyZYq_kNHm1wtDG2w_Tco7hrWZOGAAJV_zahTkTQnzw3fX3T_pGIhuF0jXPIbeNAdw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:19:13,799 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622842400074162178"},"isSuccess":true}
+2023-02-07 14:19:13,886 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:19:14,110 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:19:14,111 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmZjAxMzUwLWI3NTMtNGNjYi04YjIzLWM2ZDUzZjc2ZjE1OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.FgjFRxacIpRsVYXrqQzAlyZYq_kNHm1wtDG2w_Tco7hrWZOGAAJV_zahTkTQnzw3fX3T_pGIhuF0jXPIbeNAdw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:19:14,111 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622842401386979330"},"isSuccess":true}
+2023-02-07 14:19:14,120 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:19:14,341 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:19:14,342 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmZjAxMzUwLWI3NTMtNGNjYi04YjIzLWM2ZDUzZjc2ZjE1OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.FgjFRxacIpRsVYXrqQzAlyZYq_kNHm1wtDG2w_Tco7hrWZOGAAJV_zahTkTQnzw3fX3T_pGIhuF0jXPIbeNAdw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:19:14,342 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622842402360057858"},"isSuccess":true}
+2023-02-07 14:19:17,369 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 14:19:17,370 | run.py[line:26] | INFO: ==========定制报告成功==========
+2023-02-07 14:27:27,464 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:27:27,937 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:27:27,946 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:27:28,324 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:27:28,327 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:27:28,327 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjhlZjNiY2M0LTA5OTEtNDY5Yi1hNWJmLWYwY2NlODc1ZDVlZiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.er6HqdlxLbMHDktC80EjFw9IOFTQBBOBwQHSESWPpQKEGqJMsWDCrP-xYONZb9v9hPsNMaID7uRoCIo0B6YSNg","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:27:28,369 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:27:28,378 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:27:28,603 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:27:28,604 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjhlZjNiY2M0LTA5OTEtNDY5Yi1hNWJmLWYwY2NlODc1ZDVlZiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.er6HqdlxLbMHDktC80EjFw9IOFTQBBOBwQHSESWPpQKEGqJMsWDCrP-xYONZb9v9hPsNMaID7uRoCIo0B6YSNg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:27:28,604 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622844475369644033"},"isSuccess":true}
+2023-02-07 14:27:28,700 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:27:28,928 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:27:28,930 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjhlZjNiY2M0LTA5OTEtNDY5Yi1hNWJmLWYwY2NlODc1ZDVlZiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.er6HqdlxLbMHDktC80EjFw9IOFTQBBOBwQHSESWPpQKEGqJMsWDCrP-xYONZb9v9hPsNMaID7uRoCIo0B6YSNg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:27:28,930 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622844476724404226"},"isSuccess":true}
+2023-02-07 14:27:28,941 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:27:29,158 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:27:29,159 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjhlZjNiY2M0LTA5OTEtNDY5Yi1hNWJmLWYwY2NlODc1ZDVlZiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.er6HqdlxLbMHDktC80EjFw9IOFTQBBOBwQHSESWPpQKEGqJMsWDCrP-xYONZb9v9hPsNMaID7uRoCIo0B6YSNg'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:27:29,160 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622844477714259970"},"isSuccess":true}
+2023-02-07 14:27:32,186 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 14:27:32,188 | run.py[line:26] | INFO: ==========定制报告成功==========
+2023-02-07 14:28:27,375 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:28:27,750 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:28:27,758 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:28:28,071 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:28:28,074 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:28:28,074 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijg4MWM5NWE0LWJmMDYtNDk2OC05NzRmLWZkZGFlZWVhNGIzNCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.mIVVWXkj6WDOGxi-7Q2Itkm4XEWUErtNdbBxO_0h3IXMcZBO9leGK7PKMhzqGAf2vxbBqAr_QjSdeii5b3SclQ","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:28:28,111 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:28:28,120 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:28:28,348 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:28:28,349 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijg4MWM5NWE0LWJmMDYtNDk2OC05NzRmLWZkZGFlZWVhNGIzNCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.mIVVWXkj6WDOGxi-7Q2Itkm4XEWUErtNdbBxO_0h3IXMcZBO9leGK7PKMhzqGAf2vxbBqAr_QjSdeii5b3SclQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:28:28,350 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622844725954142209"},"isSuccess":true}
+2023-02-07 14:28:28,435 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:28:28,656 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:28:28,657 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijg4MWM5NWE0LWJmMDYtNDk2OC05NzRmLWZkZGFlZWVhNGIzNCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.mIVVWXkj6WDOGxi-7Q2Itkm4XEWUErtNdbBxO_0h3IXMcZBO9leGK7PKMhzqGAf2vxbBqAr_QjSdeii5b3SclQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:28:28,657 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622844727245987841"},"isSuccess":true}
+2023-02-07 14:28:28,668 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:28:28,892 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:28:28,893 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijg4MWM5NWE0LWJmMDYtNDk2OC05NzRmLWZkZGFlZWVhNGIzNCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.mIVVWXkj6WDOGxi-7Q2Itkm4XEWUErtNdbBxO_0h3IXMcZBO9leGK7PKMhzqGAf2vxbBqAr_QjSdeii5b3SclQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:28:28,893 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622844728231649282"},"isSuccess":true}
+2023-02-07 14:28:31,919 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 14:28:31,920 | run.py[line:26] | INFO: ==========定制报告成功==========
+2023-02-07 14:30:01,507 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:30:01,860 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:30:01,869 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:30:02,212 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:30:02,215 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:30:02,216 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImVmYTU5MWU3LWVkYzgtNGEyNS1hMzc0LTc2Yzk3MGQwYjY3ZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.cF9r2NY4x_dXewPEiPMKUss2VyMubYrBiCOFJXSZoXLv6Bp_YJBe2czheFFtSDNKcOO2330LVK5VPna209XoTw","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:30:02,253 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:30:02,261 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:30:02,500 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:30:02,501 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImVmYTU5MWU3LWVkYzgtNGEyNS1hMzc0LTc2Yzk3MGQwYjY3ZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.cF9r2NY4x_dXewPEiPMKUss2VyMubYrBiCOFJXSZoXLv6Bp_YJBe2czheFFtSDNKcOO2330LVK5VPna209XoTw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:30:02,501 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622845120852058114"},"isSuccess":true}
+2023-02-07 14:30:02,582 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:30:02,830 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:30:02,834 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImVmYTU5MWU3LWVkYzgtNGEyNS1hMzc0LTc2Yzk3MGQwYjY3ZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.cF9r2NY4x_dXewPEiPMKUss2VyMubYrBiCOFJXSZoXLv6Bp_YJBe2czheFFtSDNKcOO2330LVK5VPna209XoTw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:30:02,835 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622845122227789825"},"isSuccess":true}
+2023-02-07 14:30:02,845 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:30:03,069 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:30:03,069 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImVmYTU5MWU3LWVkYzgtNGEyNS1hMzc0LTc2Yzk3MGQwYjY3ZSIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.cF9r2NY4x_dXewPEiPMKUss2VyMubYrBiCOFJXSZoXLv6Bp_YJBe2czheFFtSDNKcOO2330LVK5VPna209XoTw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:30:03,070 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622845123238617089"},"isSuccess":true}
+2023-02-07 14:30:06,093 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 14:30:06,094 | run.py[line:26] | INFO: ==========定制报告成功==========
+2023-02-07 14:33:10,427 | run.py[line:38] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:33:10,791 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:33:10,801 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:33:11,165 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:33:11,167 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:33:11,167 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmMGU4ZjEwLTBkNjEtNDI0ZC04ZDAxLWU5ODNiNTMzOWI2OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.UGA53JrD8wxmVD7drHT6cGXNlq_tV6ZSBx5583YeOggwJR5b4Uk_UbJ7nPAipLvSBZELIj2ijDZNuLcBwk6XDA","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:33:11,204 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:33:11,212 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:33:11,432 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:33:11,433 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmMGU4ZjEwLTBkNjEtNDI0ZC04ZDAxLWU5ODNiNTMzOWI2OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.UGA53JrD8wxmVD7drHT6cGXNlq_tV6ZSBx5583YeOggwJR5b4Uk_UbJ7nPAipLvSBZELIj2ijDZNuLcBwk6XDA'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:33:11,433 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622845913323855873"},"isSuccess":true}
+2023-02-07 14:33:11,527 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:33:11,743 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:33:11,744 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmMGU4ZjEwLTBkNjEtNDI0ZC04ZDAxLWU5ODNiNTMzOWI2OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.UGA53JrD8wxmVD7drHT6cGXNlq_tV6ZSBx5583YeOggwJR5b4Uk_UbJ7nPAipLvSBZELIj2ijDZNuLcBwk6XDA'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:33:11,744 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622845914624090113"},"isSuccess":true}
+2023-02-07 14:33:11,753 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:33:11,956 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:33:11,957 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6ImZmMGU4ZjEwLTBkNjEtNDI0ZC04ZDAxLWU5ODNiNTMzOWI2OCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.UGA53JrD8wxmVD7drHT6cGXNlq_tV6ZSBx5583YeOggwJR5b4Uk_UbJ7nPAipLvSBZELIj2ijDZNuLcBwk6XDA'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:33:11,958 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622845915530059777"},"isSuccess":true}
+2023-02-07 14:33:21,209 | run.py[line:19] | INFO: ==========开始定制报告==========
+2023-02-07 14:33:21,210 | run.py[line:26] | INFO: ==========定制报告成功==========
+2023-02-07 14:46:22,466 | run.py[line:31] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:46:22,819 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:46:22,828 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:46:23,446 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:46:23,448 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:46:23,448 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjQ1NjhlY2NkLTIzMTctNGE5MC1iM2ExLTJjOTJiNThjMTViMCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.dS6GcQAkZP1-d0fKWunn5XMiKUJSFSnPfOaYqPaFjmDB6eI6xy-m6qJOBBcHdHi59-oP_1UUUmUyACIMvn39KQ","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:46:23,484 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:46:23,492 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:46:24,015 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:46:24,017 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjQ1NjhlY2NkLTIzMTctNGE5MC1iM2ExLTJjOTJiNThjMTViMCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.dS6GcQAkZP1-d0fKWunn5XMiKUJSFSnPfOaYqPaFjmDB6eI6xy-m6qJOBBcHdHi59-oP_1UUUmUyACIMvn39KQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:46:24,018 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622849236617715713"},"isSuccess":true}
+2023-02-07 14:46:24,103 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:46:25,623 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:46:25,624 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjQ1NjhlY2NkLTIzMTctNGE5MC1iM2ExLTJjOTJiNThjMTViMCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.dS6GcQAkZP1-d0fKWunn5XMiKUJSFSnPfOaYqPaFjmDB6eI6xy-m6qJOBBcHdHi59-oP_1UUUmUyACIMvn39KQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:46:25,624 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622849242556850177"},"isSuccess":true}
+2023-02-07 14:46:25,637 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:46:26,372 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:46:26,373 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjQ1NjhlY2NkLTIzMTctNGE5MC1iM2ExLTJjOTJiNThjMTViMCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.dS6GcQAkZP1-d0fKWunn5XMiKUJSFSnPfOaYqPaFjmDB6eI6xy-m6qJOBBcHdHi59-oP_1UUUmUyACIMvn39KQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:46:26,374 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622849245689995266"},"isSuccess":true}
+2023-02-07 14:46:34,814 | run.py[line:20] | INFO: ==========开始定制报告==========
+2023-02-07 14:46:34,815 | run.py[line:27] | INFO: ==========定制报告成功==========
+2023-02-07 14:51:32,255 | run.py[line:31] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 14:51:32,635 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 14:51:32,643 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:51:33,246 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 14:51:33,247 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 14:51:33,248 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijk2OWUxOTc4LWYwYzItNDE0Mi1hZDJlLTVhODcxYWFmNjMzZiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.FyNHtl_1DFNWqJ5oPw3a9AacZKzQcxx6InG1LfVmQy4n00tYdj6gxCjdhgR81407HD-Y1aYWF7R9PY358U2H-Q","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 14:51:33,283 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 14:51:33,291 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:51:34,404 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:51:34,406 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijk2OWUxOTc4LWYwYzItNDE0Mi1hZDJlLTVhODcxYWFmNjMzZiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.FyNHtl_1DFNWqJ5oPw3a9AacZKzQcxx6InG1LfVmQy4n00tYdj6gxCjdhgR81407HD-Y1aYWF7R9PY358U2H-Q'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:51:34,406 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622850536117952513"},"isSuccess":true}
+2023-02-07 14:51:34,489 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:51:35,292 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:51:35,293 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijk2OWUxOTc4LWYwYzItNDE0Mi1hZDJlLTVhODcxYWFmNjMzZiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.FyNHtl_1DFNWqJ5oPw3a9AacZKzQcxx6InG1LfVmQy4n00tYdj6gxCjdhgR81407HD-Y1aYWF7R9PY358U2H-Q'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:51:35,293 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622850540995928066"},"isSuccess":true}
+2023-02-07 14:51:35,304 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 14:51:37,000 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 14:51:37,001 | baseRequests.py[line:53] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijk2OWUxOTc4LWYwYzItNDE0Mi1hZDJlLTVhODcxYWFmNjMzZiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.FyNHtl_1DFNWqJ5oPw3a9AacZKzQcxx6InG1LfVmQy4n00tYdj6gxCjdhgR81407HD-Y1aYWF7R9PY358U2H-Q'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 14:51:37,002 | baseRequests.py[line:38] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622850544791773186"},"isSuccess":true}
+2023-02-07 14:51:45,034 | run.py[line:20] | INFO: ==========开始定制报告==========
+2023-02-07 14:51:45,035 | run.py[line:27] | INFO: ==========定制报告成功==========
+2023-02-07 15:54:06,587 | run.py[line:31] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 15:54:07,068 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 15:54:07,077 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 15:54:07,391 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 15:54:07,393 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 15:54:07,393 | baseRequests.py[line:39] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjkyODY3NzkxLTYwNTQtNGU1MS05NzQ3LTExNmYxNmI2ZmJjOCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.w_wxBj6jqmsSzvB0IcERJihMXITs7-FPIwMUmysUwivHDZKVp3XBY6sm8a_KfWOFA9dOkwWxooSgBApyfznCHA","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 15:54:07,424 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/获取最后一次登录的企业', '获取最后一次登录的企业id', '获取最后一次登录的企业id', '正向用例', '高', '/mrkj-enterprise-service/enterpriseService/getLastEnterprise', 'params', 'POST', '账号已注册', '{}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 15:54:07,427 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 15:54:07,711 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseService/getLastEnterprise HTTP/1.1" 200 None
+2023-02-07 15:54:07,712 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseService/getLastEnterprise', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjkyODY3NzkxLTYwNTQtNGU1MS05NzQ3LTExNmYxNmI2ZmJjOCIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.w_wxBj6jqmsSzvB0IcERJihMXITs7-FPIwMUmysUwivHDZKVp3XBY6sm8a_KfWOFA9dOkwWxooSgBApyfznCHA'}, 'params': {}}
+2023-02-07 15:54:07,713 | baseRequests.py[line:39] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"enterpriseInfo":{"id":"1619514420981596205","name":"aland"},"token":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjAyYjNjNDFkLWFhZmQtNDNiYy04YTU2LTE1ZjI1YjViZDc5ZCIsImVudGVycHJpc2VfaWQiOjE2MTk1MTQ0MjA5ODE1OTYyMDUsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.2W17I33m8Q3Y4mHfon0XCFeTpcjEksofXKY8mrsb_z4fPFUnV73wUhufCdUR2Ulk2ytbjKp7tQ1y_CcJOs6QWQ","expires_in":21600,"status":0}},"isSuccess":true}
+2023-02-07 15:54:07,758 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 15:54:07,768 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 15:54:08,017 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 15:54:08,019 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjAyYjNjNDFkLWFhZmQtNDNiYy04YTU2LTE1ZjI1YjViZDc5ZCIsImVudGVycHJpc2VfaWQiOjE2MTk1MTQ0MjA5ODE1OTYyMDUsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.2W17I33m8Q3Y4mHfon0XCFeTpcjEksofXKY8mrsb_z4fPFUnV73wUhufCdUR2Ulk2ytbjKp7tQ1y_CcJOs6QWQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 15:54:08,019 | baseRequests.py[line:39] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1622866283505876993"},"isSuccess":true}
+2023-02-07 15:54:08,110 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 15:54:08,364 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 15:54:08,366 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjAyYjNjNDFkLWFhZmQtNDNiYy04YTU2LTE1ZjI1YjViZDc5ZCIsImVudGVycHJpc2VfaWQiOjE2MTk1MTQ0MjA5ODE1OTYyMDUsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.2W17I33m8Q3Y4mHfon0XCFeTpcjEksofXKY8mrsb_z4fPFUnV73wUhufCdUR2Ulk2ytbjKp7tQ1y_CcJOs6QWQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 15:54:08,366 | baseRequests.py[line:39] | INFO: Body：{"code":"mrkj-store-service-1001","message":"【名称】:Auto部门重复","traceId":"b97e9009fcd54377a58651c8b7238c7f","possibleReason":null,"suggestMeasure":null,"module":null,"data":null,"isSuccess":false}
+2023-02-07 15:54:08,377 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 15:54:08,596 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 15:54:08,597 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjAyYjNjNDFkLWFhZmQtNDNiYy04YTU2LTE1ZjI1YjViZDc5ZCIsImVudGVycHJpc2VfaWQiOjE2MTk1MTQ0MjA5ODE1OTYyMDUsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.2W17I33m8Q3Y4mHfon0XCFeTpcjEksofXKY8mrsb_z4fPFUnV73wUhufCdUR2Ulk2ytbjKp7tQ1y_CcJOs6QWQ'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 15:54:08,598 | baseRequests.py[line:39] | INFO: Body：{"code":"mrkj-store-service-1001","message":"【名称】:Auto部门重复","traceId":"5376ed8ed63d4734b1fc16968ad636dc","possibleReason":null,"suggestMeasure":null,"module":null,"data":null,"isSuccess":false}
+2023-02-07 15:54:17,292 | run.py[line:20] | INFO: ==========开始定制报告==========
+2023-02-07 15:54:17,295 | run.py[line:27] | INFO: ==========定制报告成功==========
+2023-02-07 17:17:35,788 | run.py[line:31] | INFO: 
+			                             _    _         _      _____         _
+			              __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+			             / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+			            | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+			             \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+			                  |_|
+			                  开始执行茂日软件Pro企业版...
+			                
+2023-02-07 17:17:36,274 | e_login_service.py[line:29] | INFO: **************账号密码登录：开始-**************
+2023-02-07 17:17:36,302 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/账号密码登录', '输入正确账号密码登录成功', '正确的账号和密码', '正向用例', '高', '/mrkj-auth-center/auth/loginApi/loginByPassWord', 'params', 'POST', '账号已注册', '{"mobile":"#mobile#","password":"#password#"}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 17:17:36,311 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 17:17:36,665 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-auth-center/auth/loginApi/loginByPassWord?mobile=19196120000&password=e10adc3949ba59abbe56e057f20f883e HTTP/1.1" 200 None
+2023-02-07 17:17:36,666 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-auth-center/auth/loginApi/loginByPassWord', 'method': 'POST', 'headers': {}, 'params': {'mobile': '19196120000', 'password': 'e10adc3949ba59abbe56e057f20f883e'}}
+2023-02-07 17:17:36,667 | baseRequests.py[line:39] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjczMWJmNDk0LTI5MzItNDEwNC1hYzZmLWZmNjkzNWU3NDA2YiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.1-fun_-IU9vSRfi3PI1Csb5x5syiV6xcdCwr3v-8dwHz4q2srneGCK-lbVH2erV4ysyALGNoUlqpYKiTFvyfkQ","expires_in":21600,"status":0},"isSuccess":true}
+2023-02-07 17:17:36,667 | e_login_service.py[line:40] | INFO: **************-账号密码登录成功，返回用户登录token-**************->eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjczMWJmNDk0LTI5MzItNDEwNC1hYzZmLWZmNjkzNWU3NDA2YiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.1-fun_-IU9vSRfi3PI1Csb5x5syiV6xcdCwr3v-8dwHz4q2srneGCK-lbVH2erV4ysyALGNoUlqpYKiTFvyfkQ
+2023-02-07 17:17:36,668 | e_login_service.py[line:56] | INFO: **************开始获取最后登录企业id与token-**************
+2023-02-07 17:17:36,694 | operationExcel.py[line:56] | INFO: 成功获取一条测试用例：[[1, '登录/获取最后一次登录的企业', '获取最后一次登录的企业id', '获取最后一次登录的企业id', '正向用例', '高', '/mrkj-enterprise-service/enterpriseService/getLastEnterprise', 'params', 'POST', '账号已注册', '{}', None, '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确，返回结果是否是查询员工信息', 0, '请求成功', "返回结果中['data']['access_token']正确", '否', None]]
+2023-02-07 17:17:36,697 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 17:17:37,023 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseService/getLastEnterprise HTTP/1.1" 200 None
+2023-02-07 17:17:37,024 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseService/getLastEnterprise', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6IjczMWJmNDk0LTI5MzItNDEwNC1hYzZmLWZmNjkzNWU3NDA2YiIsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.1-fun_-IU9vSRfi3PI1Csb5x5syiV6xcdCwr3v-8dwHz4q2srneGCK-lbVH2erV4ysyALGNoUlqpYKiTFvyfkQ'}, 'params': {}}
+2023-02-07 17:17:37,024 | baseRequests.py[line:39] | INFO: Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"enterpriseInfo":{"id":"1619514420981596205","name":"aland"},"token":{"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijc3YTcyOGRlLWI3ZjAtNGMwNS1hZDFlLTU0MDdkZTNjM2E4MiIsImVudGVycHJpc2VfaWQiOjE2MTk1MTQ0MjA5ODE1OTYyMDUsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.8wP1SixkdlScckq_AaFACUFfDfr8X-RBmrAQhGmF_CyAIDCQUMWhi8byKwZ2Hur0TZN7C49aO94QTEkX5jvzCw","expires_in":21600,"status":0}},"isSuccess":true}
+2023-02-07 17:17:37,025 | e_login_service.py[line:68] | INFO: **************成功获取最后登录企业id与token-**************1619514420981596205->eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijc3YTcyOGRlLWI3ZjAtNGMwNS1hZDFlLTU0MDdkZTNjM2E4MiIsImVudGVycHJpc2VfaWQiOjE2MTk1MTQ0MjA5ODE1OTYyMDUsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.8wP1SixkdlScckq_AaFACUFfDfr8X-RBmrAQhGmF_CyAIDCQUMWhi8byKwZ2Hur0TZN7C49aO94QTEkX5jvzCw
+2023-02-07 17:17:37,065 | operationExcel.py[line:35] | INFO: 成功获取所有用例，共3条用例
+2023-02-07 17:17:37,074 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 17:17:37,392 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 17:17:37,394 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijc3YTcyOGRlLWI3ZjAtNGMwNS1hZDFlLTU0MDdkZTNjM2E4MiIsImVudGVycHJpc2VfaWQiOjE2MTk1MTQ0MjA5ODE1OTYyMDUsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.8wP1SixkdlScckq_AaFACUFfDfr8X-RBmrAQhGmF_CyAIDCQUMWhi8byKwZ2Hur0TZN7C49aO94QTEkX5jvzCw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 17:17:37,394 | baseRequests.py[line:39] | INFO: Body：{"code":"mrkj-store-service-1001","message":"【名称】:Auto部门重复","traceId":"dafdd30073904ecd87865ad4d67d44e9","possibleReason":null,"suggestMeasure":null,"module":null,"data":null,"isSuccess":false}
+2023-02-07 17:17:37,474 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 17:17:37,743 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 17:17:37,744 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijc3YTcyOGRlLWI3ZjAtNGMwNS1hZDFlLTU0MDdkZTNjM2E4MiIsImVudGVycHJpc2VfaWQiOjE2MTk1MTQ0MjA5ODE1OTYyMDUsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.8wP1SixkdlScckq_AaFACUFfDfr8X-RBmrAQhGmF_CyAIDCQUMWhi8byKwZ2Hur0TZN7C49aO94QTEkX5jvzCw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 17:17:37,745 | baseRequests.py[line:39] | INFO: Body：{"code":"mrkj-store-service-1001","message":"【名称】:Auto部门重复","traceId":"6ff1d2f2a3b547ccb34ab9cad50c158b","possibleReason":null,"suggestMeasure":null,"module":null,"data":null,"isSuccess":false}
+2023-02-07 17:17:37,755 | connectionpool.py[line:1005] | DEBUG: Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+2023-02-07 17:17:38,016 | connectionpool.py[line:465] | DEBUG: https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseServicebasedata/dept/add HTTP/1.1" 200 None
+2023-02-07 17:17:38,018 | baseRequests.py[line:54] | INFO: SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseServicebasedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjE5NTE0MjIxNDMyMjIxNzk0LCJ1c2VyX2tleSI6Ijc3YTcyOGRlLWI3ZjAtNGMwNS1hZDFlLTU0MDdkZTNjM2E4MiIsImVudGVycHJpc2VfaWQiOjE2MTk1MTQ0MjA5ODE1OTYyMDUsInVzZXJuYW1lIjoiMTkxOTYxMjAwMDAifQ.8wP1SixkdlScckq_AaFACUFfDfr8X-RBmrAQhGmF_CyAIDCQUMWhi8byKwZ2Hur0TZN7C49aO94QTEkX5jvzCw'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+2023-02-07 17:17:38,018 | baseRequests.py[line:39] | INFO: Body：{"code":"mrkj-store-service-1001","message":"【名称】:Auto部门重复","traceId":"2019fb5fce2e4c37b2c0d46f108ec372","possibleReason":null,"suggestMeasure":null,"module":null,"data":null,"isSuccess":false}
+2023-02-07 17:17:48,083 | run.py[line:20] | INFO: ==========开始定制报告==========
+2023-02-07 17:17:48,086 | run.py[line:27] | INFO: ==========定制报告成功==========

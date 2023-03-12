@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.enterprise.base_information.test_base_information_dept",
+    "children" : [ {
+      "name" : "验证新增一级部门",
+      "uid" : "d4f4a19928cd8c56",
+      "parentUid" : "e3a476ce5791d32e6eea5c4744b7fdf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1678630226029,
+        "stop" : 1678630226591,
+        "duration" : 562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[1, '部门接口/新增接口', '验证新增一级部门', '输入部门名称，不选择上级部门，新增一级部门', '正向用例', 1, '/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'json', 'POST', '1、登录门店', '{\"name\":\"#name#\",\"parentId\":\"0\",\"status\":1}', '门店token', '1、正确输入接口地址\\n2、输入请求参数\\n3、查看响应body是否正确并新增部门成功', 0, '请求成功', '{\"name\":\"#name#\",\"parentId\":\"#parentId#\"}', '是', 0, '是']" ]
+    }, {
+      "name" : "验证部门名称不能重复",
+      "uid" : "522d487ea3edf8d2",
+      "parentUid" : "e3a476ce5791d32e6eea5c4744b7fdf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1678630226602,
+        "stop" : 1678630227013,
+        "duration" : 411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[2, '部门接口/新增接口', '验证部门名称不能重复', '输入门店已存在的部门名称新增一级部门', '负向用例', 1, '/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'json', 'POST', '1、登录门店', '{\"name\":\"#name#\",\"parentId\":\"0\",\"status\":1}', '门店token', '1、正确输入接口地址\\n2、输入请求参数\\n3、查看响应body是否正确并新增部门成功', 'mrkj-store-service-1001', '【名称】:Auto部门重复', '无', '否', 1, '否']" ]
+    }, {
+      "name" : "验证新增二级部门",
+      "uid" : "787e83b845a6df37",
+      "parentUid" : "e3a476ce5791d32e6eea5c4744b7fdf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1678630227023,
+        "stop" : 1678630227589,
+        "duration" : 566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[3, '部门接口/新增接口', '验证新增二级部门', '输入部门名称、上级部门新增二级部门', '正向用例', 1, '/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'json', 'POST', '1、登陆门店；2、需要一级部门ID', '{\"name\":\"#name#\",\"parentId\":\"#parentId#\",\"status\":1}', '门店token', '1、正确输入接口地址\\n2、输入请求参数\\n3、查看响应body是否正确并新增部门成功', 0, '请求成功', '{\"name\":\"#name#\",\"parentId\":\"#parentId#\"}', '是', 0, '是']" ]
+    } ],
+    "uid" : "testcase.enterprise.base_information.test_base_information_dept"
+  } ]
+}

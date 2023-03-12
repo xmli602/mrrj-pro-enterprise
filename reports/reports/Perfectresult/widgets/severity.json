@@ -1,0 +1,31 @@
+[ {
+  "uid" : "5d1d8cf1a39980c6",
+  "name" : "验证新增一级部门",
+  "time" : {
+    "start" : 1678630226029,
+    "stop" : 1678630226591,
+    "duration" : 562
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "647fefbe2248efa6",
+  "name" : "验证部门名称不能重复",
+  "time" : {
+    "start" : 1678630226602,
+    "stop" : 1678630227013,
+    "duration" : 411
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ecde3a85fb24f2e",
+  "name" : "验证新增二级部门",
+  "time" : {
+    "start" : 1678630227023,
+    "stop" : 1678630227589,
+    "duration" : 566
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

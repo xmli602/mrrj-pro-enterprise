@@ -1,0 +1,10 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseService/basedata/dept/add HTTP/1.1" 200 None
+INFO     root:baseRequests.py:54 SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjM0ODg1Nzk0OTc5NTgxOTU0LCJ1c2VyX2tleSI6ImFiNDIxNzRjLTQ5NmQtNDllYy05ZTRjLWRjMDdlYmViNDhjYSIsImVudGVycHJpc2VfaWQiOjE2MzQ4ODYwMzE2NjcxMjIxOTEsInVzZXJuYW1lIjoiMTM2NTc2OTM0OTUifQ.a4u724GbhIlC6jOX_Vpi0lGctV-kTXP1oH2K_EWdK5_8lScATdO10atIxPfKqiRrXa-qoHjZFZVQt5_bN4KXww'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+INFO     root:baseRequests.py:39 Body：{"code":"mrkj-store-service-1001","message":"【名称】:Auto部门重复","traceId":"36329748256f46f6a996794918211029","possibleReason":null,"suggestMeasure":null,"module":null,"data":null,"isSuccess":false}
+INFO     root:Assert.py:22 Response实际结果为：Code: mrkj-store-service-1001
+INFO     root:Assert.py:23 Response预期结果为：Code: mrkj-store-service-1001
+INFO     root:Assert.py:25 *********** 通过! ***********
+INFO     root:Assert.py:22 Response实际结果为：Code: 【名称】:Auto部门重复
+INFO     root:Assert.py:23 Response预期结果为：Code: 【名称】:Auto部门重复
+INFO     root:Assert.py:25 *********** 通过! ***********

@@ -1,0 +1,19 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseService/basedata/dept/add HTTP/1.1" 200 None
+INFO     root:baseRequests.py:54 SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjM0ODg1Nzk0OTc5NTgxOTU0LCJ1c2VyX2tleSI6ImFiNDIxNzRjLTQ5NmQtNDllYy05ZTRjLWRjMDdlYmViNDhjYSIsImVudGVycHJpc2VfaWQiOjE2MzQ4ODYwMzE2NjcxMjIxOTEsInVzZXJuYW1lIjoiMTM2NTc2OTM0OTUifQ.a4u724GbhIlC6jOX_Vpi0lGctV-kTXP1oH2K_EWdK5_8lScATdO10atIxPfKqiRrXa-qoHjZFZVQt5_bN4KXww'}, 'json': {'name': 'Auto部门-l2', 'parentId': '1634919781565636610', 'status': 1}}
+INFO     root:baseRequests.py:39 Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1634919787836121090"},"isSuccess":true}
+INFO     root:Assert.py:22 Response实际结果为：Code: 0
+INFO     root:Assert.py:23 Response预期结果为：Code: 0
+INFO     root:Assert.py:25 *********** 通过! ***********
+INFO     root:Assert.py:22 Response实际结果为：Code: 请求成功
+INFO     root:Assert.py:23 Response预期结果为：Code: 请求成功
+INFO     root:Assert.py:25 *********** 通过! ***********
+INFO     root:mysql.py:94 select sql:SELECT * FROM mrkj_store_service.store_service_dept WHERE id = 1634919787836121090 and is_delete = 0 order by create_time desc
+INFO     root:Assert.py:22 Response实际结果为：部门名称: Auto部门-l2
+INFO     root:Assert.py:23 Response预期结果为：部门名称: Auto部门-l2
+INFO     root:Assert.py:25 *********** 通过! ***********
+INFO     root:Assert.py:22 Response实际结果为：上级ID: 1634919781565636610
+INFO     root:Assert.py:23 Response预期结果为：上级ID: 1634919781565636610
+INFO     root:Assert.py:25 *********** 通过! ***********
+INFO     root:mysql.py:127 Success Close Mysql
+INFO     root:E_fixture.py:29 **************-Module：关闭数据库-**************

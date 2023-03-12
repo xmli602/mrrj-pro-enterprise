@@ -1,0 +1,27 @@
+INFO     root:operationExcel.py:74 数据读取成功： {'host':'kjj-and-mr-dev.rwlb.rds.aliyuncs.com','port': 3306,'user': 'lxm', 'passwd': 'qj0KPfzL5Rhi5Qza'}
+INFO     root:mysql.py:24 数据库连接成功，连接参数为：{'host': 'kjj-and-mr-dev.rwlb.rds.aliyuncs.com', 'port': 3306, 'user': 'lxm', 'passwd': 'qj0KPfzL5Rhi5Qza'}
+INFO     root:E_fixture.py:25 **************-Module：开始连接数据库-**************
+INFO     root:E_fixture.py:44 ===============Class：开始创建部门，并获得部门ID===============
+INFO     root:operationExcel.py:56 成功获取一条测试用例：[[1, '部门接口/新增接口', '验证新增一级部门', '输入部门名称，不选择上级部门，新增一级部门', '正向用例', 1, '/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'json', 'POST', '1、登录门店', '{"name":"#name#","parentId":"0","status":1}', '门店token', '1、正确输入接口地址\n2、输入请求参数\n3、查看响应body是否正确并新增部门成功', 0, '请求成功', '{"name":"#name#","parentId":"#parentId#"}', '是', 0, '是']]
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseService/basedata/dept/add HTTP/1.1" 200 None
+INFO     root:baseRequests.py:54 SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjM0ODg1Nzk0OTc5NTgxOTU0LCJ1c2VyX2tleSI6ImFiNDIxNzRjLTQ5NmQtNDllYy05ZTRjLWRjMDdlYmViNDhjYSIsImVudGVycHJpc2VfaWQiOjE2MzQ4ODYwMzE2NjcxMjIxOTEsInVzZXJuYW1lIjoiMTM2NTc2OTM0OTUifQ.a4u724GbhIlC6jOX_Vpi0lGctV-kTXP1oH2K_EWdK5_8lScATdO10atIxPfKqiRrXa-qoHjZFZVQt5_bN4KXww'}, 'json': {'name': 'Auto部门-l1', 'parentId': '0', 'status': 1}}
+INFO     root:baseRequests.py:39 Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1634919781565636610"},"isSuccess":true}
+INFO     root:E_fixture.py:57 ===============Class：成功新增部门并获得ID：1634919781565636610===============
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): proenterprisetest.mrrjvip.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://proenterprisetest.mrrjvip.com:443 "POST /mrkj-enterprise-service/enterpriseService/basedata/dept/add HTTP/1.1" 200 None
+INFO     root:baseRequests.py:54 SendRequest Success, RequestBody：{'url': 'https://proenterprisetest.mrrjvip.com/mrkj-enterprise-service/enterpriseService/basedata/dept/add', 'method': 'POST', 'headers': {'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxNjM0ODg1Nzk0OTc5NTgxOTU0LCJ1c2VyX2tleSI6ImFiNDIxNzRjLTQ5NmQtNDllYy05ZTRjLWRjMDdlYmViNDhjYSIsImVudGVycHJpc2VfaWQiOjE2MzQ4ODYwMzE2NjcxMjIxOTEsInVzZXJuYW1lIjoiMTM2NTc2OTM0OTUifQ.a4u724GbhIlC6jOX_Vpi0lGctV-kTXP1oH2K_EWdK5_8lScATdO10atIxPfKqiRrXa-qoHjZFZVQt5_bN4KXww'}, 'json': {'name': 'Auto部门', 'parentId': '0', 'status': 1}}
+INFO     root:baseRequests.py:39 Body：{"code":"0","message":"请求成功","traceId":null,"possibleReason":null,"suggestMeasure":null,"module":null,"data":{"id":"1634919783646011394"},"isSuccess":true}
+INFO     root:Assert.py:22 Response实际结果为：Code: 0
+INFO     root:Assert.py:23 Response预期结果为：Code: 0
+INFO     root:Assert.py:25 *********** 通过! ***********
+INFO     root:Assert.py:22 Response实际结果为：Code: 请求成功
+INFO     root:Assert.py:23 Response预期结果为：Code: 请求成功
+INFO     root:Assert.py:25 *********** 通过! ***********
+INFO     root:mysql.py:94 select sql:SELECT * FROM mrkj_store_service.store_service_dept WHERE id = 1634919783646011394 and is_delete = 0 order by create_time desc
+INFO     root:Assert.py:22 Response实际结果为：部门名称: Auto部门
+INFO     root:Assert.py:23 Response预期结果为：部门名称: Auto部门
+INFO     root:Assert.py:25 *********** 通过! ***********
+INFO     root:Assert.py:22 Response实际结果为：上级ID: 0
+INFO     root:Assert.py:23 Response预期结果为：上级ID: 0
+INFO     root:Assert.py:25 *********** 通过! ***********

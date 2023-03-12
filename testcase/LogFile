@@ -1,0 +1,9 @@
+2023-03-12 17:31:29,631 | operationExcel.py[line:77] | ERROR: RadeCellExcel Error：[Errno 2] No such file or directory: 'D:\\mrrj-pro-enterprise\\mrrj-pro-enterprise\\testcase/sql_info.xlsx'
+2023-03-12 17:33:33,893 | operationExcel.py[line:77] | ERROR: RadeCellExcel Error：[Errno 2] No such file or directory: 'D:\\mrrj-pro-enterprise\\mrrj-pro-enterprise\\testcase/sql_info.xlsx'
+2023-03-12 17:33:46,457 | operationExcel.py[line:77] | ERROR: RadeCellExcel Error：[Errno 2] No such file or directory: 'D:\\mrrj-pro-enterprise\\mrrj-pro-enterprise\\testcase/sql_info.xlsx'
+2023-03-12 17:34:21,014 | operationExcel.py[line:77] | ERROR: RadeCellExcel Error：File is not a zip file
+2023-03-12 17:34:47,863 | operationExcel.py[line:77] | ERROR: RadeCellExcel Error：File is not a zip file
+2023-03-12 17:35:55,428 | operationExcel.py[line:77] | ERROR: RadeCellExcel Error：'Worksheet sql_info does not exist.'
+2023-03-12 17:36:10,550 | operationExcel.py[line:74] | INFO: 数据读取成功： {'host':'kjj-and-mr-dev.rwlb.rds.aliyuncs.com','port': 3306,'user': 'lxm', 'passwd': 'qj0KPfzL5Rhi5Qza'}
+2023-03-12 17:36:34,388 | operationExcel.py[line:74] | INFO: 数据读取成功： {'host':'kjj-and-mr-dev.rwlb.rds.aliyuncs.com','port': 3306,'user': 'lxm', 'passwd': 'qj0KPfzL5Rhi5Qza'}
+2023-03-12 17:36:34,646 | mysql.py[line:24] | INFO: 数据库连接成功，连接参数为：{'host': 'kjj-and-mr-dev.rwlb.rds.aliyuncs.com', 'port': 3306, 'user': 'lxm', 'passwd': 'qj0KPfzL5Rhi5Qza'}
